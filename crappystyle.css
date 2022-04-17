@@ -1,0 +1,21 @@
+/* font-fmaily needs to be cursive. Troubleshoot issue!!*/
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: larger;
+    font-family: 'Indie Flower', cursive;
+    background-color: black;
+    color: white;
+}
+
+.paraheader {
+    align-self: center;
+    font-size: larger;
+}
+
+h2,
+h3 {
+    color: black;
+}
