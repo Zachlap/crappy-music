@@ -1,6 +1,6 @@
 /* font-fmaily needs to be cursive. Troubleshoot issue!!*/
 
-header {
+.header {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -10,10 +10,38 @@ header {
     color: white;
 }
 
-.paraheader {
-    align-self: center;
-    font-size: larger;
+
+
+.button {
+    background-color: black;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+
 }
+
+nav ul {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+
+.button1 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+}
+
+.section {
+    text-align: center;
+    font-size: large;
+}
+
 
 h2,
 h3 {
